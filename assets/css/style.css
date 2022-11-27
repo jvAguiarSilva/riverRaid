@@ -1,0 +1,194 @@
+@import url('https://fonts.cdnfonts.com/css/arcade-classic');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #051937, #1c3e65, #326797, #4595cb, #57c5ff);
+}
+
+#titulo {
+    grid-column: 1/3;
+    margin-bottom: 2%;
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #9bdcff;
+}
+#game {
+    position: relative;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gas {
+    position: absolute;
+    left: 0;
+    height: 500px;
+    width: 4%;
+    grid-row: 2;
+    grid-column: 1/2;
+    background-image: linear-gradient(to top, #c42900, #dc6400, #ec9800, #f1cb00, #ebff00);
+    border: 2px solid black;
+}
+
+#esgotamento {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#titulo span {
+    margin: 5px;
+}
+
+#window {
+    grid-row: 2;
+    grid-column: 2/3;
+    background-size: cover;
+    position: relative;
+    width: 960px;
+    height: 500px;
+    border: 5px solid rgb(0, 7, 68);
+    overflow: hidden;
+}
+#tela-jogo {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/bg-space.jpg');
+    background-size: cover;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#menu {
+    font-family:'Exo', sans-serif;
+    font-size: 2rem;
+    color: #57c5ff;
+    background-color: #0519379f;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.botao {
+    font-family: 'Exo';
+    font-size: 2rem;
+    background-color: white;
+    color: #051937;
+    padding: 0.9rem 5rem;
+    border-radius: 3rem;
+    border: 2px solid #57c5ff;
+}
+.botao:hover {
+    color: white;
+    background-color: #326797;
+    border: 2px solid #326797;
+    transition: all ease-in-out 300ms;
+}
+
+.nave {
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* animation: float 2s ease-in-out infinite; */
+    /* animation: animation 2s ease-in infinite; */
+}
+
+.naveImg {
+    width: 80px;
+}
+
+.img-combustivel {
+    position: absolute;
+    height: 150px;
+}
+
+.space {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.img-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+
+.linha-de-obstaculo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: grid;
+    height: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.obstaculo {
+    background-image: linear-gradient(to bottom, #002e0b, #005114, #00761a, #009d1d, #00c61b, #00c61b, #00c61b, #00c61b, #009d1d, #00761a, #005114, #002e0b);
+    height: 100px;
+}
+
+.progresso {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 80px;
+    z-index: 1;
+}
+
+.img-coin {
+    position: absolute;
+    height: 80px;
+}
+
+.footer {
+    font-family: 'Mr Dafoe', sans-serif;
+    color: #ffffff70;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    z-index: 2;
+}
