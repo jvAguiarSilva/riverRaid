@@ -8,7 +8,7 @@ function Menu() {
 
     if (this.inico) {
         textoCima.innerHTML = 'Bem vindo ao River Raid!';
-        botao.innerHTML = 'Inciar';
+        botao.innerHTML = 'Iniciar';
         botao.addEventListener('click', (event) => {
             telaJogo.style.zIndex = -1;
             riverRaid.start()
