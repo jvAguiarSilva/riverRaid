@@ -15,4 +15,5 @@ Use as setas do teclado para mover o avião e a barra de espaço para atirar.
 Este jogo foi criado por jvAguiarSilva.
 
 ## Deploy do jogo:
+Ou você pode jogar por meio desse link:
 https://river-raid-vitor-aguiar.netlify.app/
