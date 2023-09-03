@@ -20,7 +20,7 @@ Para jogar, basta clonar este repositório e abrir o arquivo `index.html` em seu
     Cuidado com os obstáculos!
   </li>
   <li>
-    Coloque combustível antes que ele acabe!
+    Abasteça combustível antes que ele acabe!
   </li>
 </ul>
 
