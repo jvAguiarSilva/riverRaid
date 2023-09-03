@@ -2,6 +2,11 @@
 
 Este é um jogo proposto como trabalho da disciplina de Tecnologias Web 2022.2.
 
+##
+<p align="center">
+  <img src="https://github.com/jvAguiarSilva/riverRaid/blob/main/assets/river_raid_vitor_aguiar%20%E2%80%90%20Feito%20com%20o%20Clipchamp.gif" width="700" />
+</p>
+
 ## Como jogar
 
 Para jogar, basta clonar este repositório e abrir o arquivo `index.html` em seu navegador.
